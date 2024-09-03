@@ -2,20 +2,20 @@
 updateAvailableTooltip = "Update Available"
 usernamePlaceholder = "Username"
 usernameEditButton = "Edit"
-settingsTooltip = "Settings"
+settingsTooltip = "การตั้งค่า"
 serverStatus = "SERVER"
 serverStatusPlaceholder = "OFFLINE"
 mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
-launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
+newsButton = "ข่าวสาร"
+launchButton = "เล่น"
+launchButtonPlaceholder = "&#8226; ไม่มีเซิร์ฟเวอร์ให้ลือก"
+launchDetails = "รอสักครู่.."
 newsNavigationStatus = "{currentPage} of {totalPages}"
 newsErrorLoadSpan = "Checking for News.."
 newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
+newsErrorRetryButton = "โปรดลองอีกครั้ง"
 newsErrorNoneSpan = "No News"
 
 [ejs.login]
@@ -49,15 +49,15 @@ accountSelectConfirm = "Select"
 accountSelectCancel = "Cancel"
 
 [ejs.settings]
-navHeaderText = "Settings"
+navHeaderText = "โซนตั้งค่า"
 navAccount = "Account"
 navMinecraft = "Minecraft"
-navMods = "Mods"
-navJava = "Java"
-navLauncher = "Launcher"
-navAbout = "About"
-navUpdates = "Updates"
-navDone = "Done"
+navMods = "Mods [มอด]"
+navJava = "Java [จาวา]"
+navLauncher = "Launcher [ลันเซอร์]"
+navAbout = "About [เกี่ยวกับ]"
+navUpdates = "Updates [อัพเดต]"
+navDone = "เสร็จสิ้น"
 tabAccountHeaderText = "Account Settings"
 tabAccountHeaderDesc = "Add new accounts or manage existing ones."
 microsoftAccount = "Microsoft"
@@ -131,7 +131,7 @@ continueButton = "CONTINUE"
 
 
 [js.discord]
-waiting = "Waiting for Client.."
+waiting = ""
 state = "Server: {shortId}"
 
 [js.index]
@@ -153,7 +153,7 @@ title = "Unknown Error During Login"
 desc = "An unknown error has occurred. Please see the console for details."
 
 [js.landing.launch]
-pleaseWait = "Please wait.."
+pleaseWait = "เกมกําลังเปิด.."
 failureTitle = "Error During Launch"
 failureText = "See console (CTRL + Shift + i) for more details."
 okay = "Okay"
@@ -211,9 +211,9 @@ checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more d
 checking = "Checking for News"
 
 [js.landing.discord]
-loading = "Loading game.."
-joining = "Sailing to Westeros!"
-joined = "Exploring the Realm!"
+loading = ""
+joining = ""
+joined = ""
 
 [js.overlay]
 dismiss = "Dismiss"

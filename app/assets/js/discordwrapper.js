@@ -14,12 +14,12 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = Lang.quer
     client = new Client({ transport: 'ipc' })
 
     activity = {
-        details: initialDetails,
-        state: Lang.queryJS('discord.state', {shortId: servSettings.shortId}),
-        largeImageKey: servSettings.largeImageKey,
-        largeImageText: servSettings.largeImageText,
+        // details: initialDetails,
+        // state: Lang.queryJS('discord.state', {shortId: servSettings.shortId}),
+        // largeImageKey: servSettings.largeImageKey,
+        // largeImageText: servSettings.largeImageText,
         smallImageKey: genSettings.smallImageKey,
-        smallImageText: genSettings.smallImageText,
+        //smallImageText: genSettings.smallImageText,
         startTimestamp: new Date().getTime(),
         instance: false
     }
